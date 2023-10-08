@@ -18,9 +18,9 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    public void mudasSexo(String novoSexo, String antigoNome) {
+    public void mudasSexo(String novoSexo, String novoNome) {
         sexo = novoSexo;
-        nome = antigoNome;
+        nome = novoNome;
     }
 
     public void casar(String antigoSobrenome, String novoSobrenome) {
