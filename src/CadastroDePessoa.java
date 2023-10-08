@@ -34,5 +34,6 @@ public class CadastroDePessoa {
                 outrosGeneros.add(pessoa);
             }
         }
+        System.out.println("");
     }
 }
