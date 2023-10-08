@@ -1,5 +1,7 @@
 public class CadastroDePessoa {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Pessoa zumba = new Pessoa();
+
+        zumba.setNome("Zumba Games");
     }
 }

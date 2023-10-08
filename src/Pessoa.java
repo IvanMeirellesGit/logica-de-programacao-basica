@@ -1,9 +1,6 @@
-import java.sql.Date;
-
 public class Pessoa {
     private String nome;
     private String sexo;
-    private Date dataDeNascimento;
 
     public String getNome() {
         return nome;
@@ -19,14 +16,6 @@ public class Pessoa {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
-    }
-
-    public Date getDataDeNascimento() {
-        return dataDeNascimento;
-    }
-
-    public void setDataDeNascimento(Date dataDeNascimento) {
-        this.dataDeNascimento = dataDeNascimento;
     }
 
     public void mudasSexo(String novoSexo, String antigoNome) {
